@@ -7,7 +7,7 @@ final class TabsController: UIPageViewController {
     weak var tabDelegate: TabsDelegate?
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(g)
         
         dataSource = self
         delegate = self
